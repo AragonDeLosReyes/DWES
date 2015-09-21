@@ -30,7 +30,7 @@ and open the template in the editor.
             }
             for($i = 0 ; $i < 6 ; $i++) {
                 if ($i < 3) {
-                    echo "</th><tr><td>", $i+1 , "</td><td>DWES</td><td>DWES</td><td>DWES</td><td>DWES</td><td>DIW</td>";
+                    echo "</th><tr><td>", $i+1 , "</td><td>DWES</td><td>DWEC</td><td>DWES</td><td>DWEC</td><td>DIW</td>";
                 }
                 if ($i == 3) {
 
