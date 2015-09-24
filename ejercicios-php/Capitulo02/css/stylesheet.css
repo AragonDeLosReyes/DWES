@@ -1,0 +1,97 @@
+/* 
+    Created on : 23-sep-2015, 10:40:29
+    Author     : xarly
+*/
+
+* {
+    margin: 0;
+    padding:0;
+  }
+
+body  {
+        font-size:1em;
+        font-family: "tahoma", "verdana", "sans-serif";
+        background: #1B654D;
+        color:black;
+      }
+
+
+#cuerpo {
+            width: 90%;
+            margin: 2em auto 3em;
+            background: #fff;
+            overflow: auto;
+            padding: 1%;
+            -webkit-box-shadow: 10px 10px 20px #1E2321;
+            -moz-box-shadow: 10px 10px 20px #1E2321;
+            
+        }
+p  {
+          color: #2C9030;
+          font-size: 1em;
+          font-weight: bold;
+        }
+
+fieldset  {
+            border: 1px solid #2C9030;
+            padding: 1em;
+            border-radius:0.5em;
+            margin-bottom: 2em;
+            background: url(../images/ico/contacto.png) no-repeat;
+          }
+          
+
+form  {
+        margin: 0 auto;
+        width: 80%;
+        text-align:  center;
+      }
+
+
+legend, p  {
+          color: #2C9030;
+          font-size: 2em;
+          font-weight: bold;
+        }
+        
+input[type="submit"]  {
+                        background: #2C9030;
+                        border: 1px solid transparent;
+                        color: white;
+                        font-size: 1em;
+                        padding: 0.5em;
+                      }
+
+input[type="submit"]:hover {
+                              background: #eee;
+                              border: 1px solid #2C9030;
+                              color: #2C9030;
+                            }
+        
+
+input[type="number"],textarea, select  {
+                              background: #eee;
+                              border: 1px solid #2C9030;
+                              color: #2C9030    ;
+                              font-size: 1em;
+                              padding: 0.25em;
+                            }
+
+input[type="number"]:focus,textarea:focus {
+                                            background: #2C9030;
+                                            color: #fff;
+                                          }
+
+textarea  {
+            resize: none;
+          }
+
+
+#cabecera {
+          text-align: center;
+          color: #2C9030;
+          padding:1em 0 1em;
+          border-bottom: 1px solid #2C9030;
+          background: #eee;
+          margin-bottom: 1em;
+          }

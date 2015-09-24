@@ -20,10 +20,9 @@ and open the ingleslate in the editor.
     <body>
         <?php
             $ingles = array("hello", "green", "washing machine", "bag", "head", "road", "way", "car", "cloud", "computer");
-    
             $español[0] = "hola";
             $español[1] = "verde";
-            $español[2] = "labadora";
+            $español[2] = "lavadora";
             $español[3] = "maleta";
             $español[4] = "cabeza";
             $español[5] = "carretera";
