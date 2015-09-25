@@ -16,7 +16,7 @@
             <form action="Ejercicio08.php" method="get">
                 <fieldset>
                     <legend>Formulario</legend>         
-                    <p><input type="number" name="horas" placeholder="Horas"></p><br>
+                    <p><input autofocus type="number" name="horas" placeholder="Horas Trabajadas"></p><br>
             <br>
                     <input type="submit" value="Enviar" >
                 </fieldset>

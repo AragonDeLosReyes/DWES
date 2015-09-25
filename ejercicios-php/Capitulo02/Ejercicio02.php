@@ -16,7 +16,7 @@
             <form action="Ejercicio02.php" method="get">
                 <fieldset>
                     <legend>Formulario</legend>        
-                    <p><input type="number" name="euros" placeholder="Pesetas"></p><br>
+                    <p><input autofocus type="number" name="euros" placeholder="Pesetas"></p><br>
                     <input type="submit" value="Enviar">
                 </fieldset>
                 <fieldset>

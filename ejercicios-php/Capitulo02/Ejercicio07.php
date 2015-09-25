@@ -15,7 +15,7 @@
             <form action="Ejercicio07.php" method="get">
                 <fieldset>
                     <legend>Formulario</legend>         
-                    <p>Base imponible <input type="number" name="base"  placeholder="Euros"></p><br>
+                    <p>Base imponible <input autofocus type="number" name="base"  placeholder="Euros"></p><br>
                     <p>Porcentaje de IVA 
                         <select name="iva">
                             <option value="4">4%</option>

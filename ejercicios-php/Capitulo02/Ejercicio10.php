@@ -15,7 +15,7 @@
             <form action="Ejercicio10.php" method="get">
                 <fieldset>
                     <legend>Formulario</legend>   
-                    <p><input type="number" name="mb" placeholder="Mb"></p><br>
+                    <p><input autofocus type="number" name="mb" placeholder="Mb"></p><br>
                     <br>
                     <input type="submit" value="Enviar" >
                 </fieldset>
@@ -23,7 +23,9 @@
                     <?php 
                     $mb =  $_GET['mb']; 
                     $kb = ($mb * 1024);    
-                    echo "$mb Mb son $kb Kb";
+                    if ($kb <> 0)   {
+                        echo "<p>$mb Mb son $kb Kb</p>";
+                    }
                 ?>
                 </fieldset>
         </form>

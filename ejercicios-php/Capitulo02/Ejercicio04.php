@@ -15,7 +15,7 @@
             <form action="Ejercicio04.php" method="get">
                 <fieldset>
                     <legend>Formulario</legend>        
-                    <p>X <input type="number" name="x"></p><br>
+                    <p>X <input autofocus type="number" name="x"></p><br>
                     <p>Y <input type="number" name="y"></p><br>
                     <input type="submit" value="Enviar">
                 </fieldset>

@@ -15,7 +15,7 @@
             <form action="Ejercicio11.php" method="get">
                 <fieldset>
                     <legend>Formulario</legend>   
-                    <p><input type="number" name="kb" placeholder="Kb"></p><br>
+                    <p><input autofocus type="number" name="kb" placeholder="Kb"></p><br>
                     <br>
                     <input type="submit" value="Enviar" >
                 </fieldset>
@@ -23,7 +23,13 @@
                     <?php 
                         $kb =  $_GET['kb']; 
                         $mb = ($kb / 1024);    
-                        echo "<p>$kb Kb son " , number_format($mb, 2) , " Mb</p>";
+                        if ($mb <> 0)   {
+                            if ($mb > 1) {
+                                echo "<p>$kb Kb son " , number_format($mb, 2) , " Mb</p>";
+                            } else {
+                                echo "<p>$kb Kb es " , number_format($mb, 2) , " Mb</p>";
+                            }
+                        }
                     ?>
                 </fieldset>
         </form>

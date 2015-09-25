@@ -24,7 +24,7 @@ body  {
             padding: 1%;
             -webkit-box-shadow: 10px 10px 20px #1E2321;
             -moz-box-shadow: 10px 10px 20px #1E2321;
-            
+                
         }
 p  {
           color: #2C9030;
@@ -33,11 +33,10 @@ p  {
         }
 
 fieldset  {
-            border: 1px solid #2C9030;
+            border: 2px dashed #2C9030;
             padding: 1em;
             border-radius:0.5em;
             margin-bottom: 2em;
-            background: url(../images/ico/contacto.png) no-repeat;
           }
           
 
@@ -48,17 +47,17 @@ form  {
       }
 
 
-legend, p  {
-          color: #2C9030;
-          font-size: 2em;
-          font-weight: bold;
-        }
+legend, p   {
+                color: #2C9030;
+                font-size: 2em;
+                font-weight: bold;
+            }
         
 input[type="submit"]  {
                         background: #2C9030;
                         border: 1px solid transparent;
                         color: white;
-                        font-size: 1em;
+                        font-size: 1.5em;
                         padding: 0.5em;
                       }
 
@@ -69,13 +68,13 @@ input[type="submit"]:hover {
                             }
         
 
-input[type="number"],textarea, select  {
-                              background: #eee;
-                              border: 1px solid #2C9030;
-                              color: #2C9030    ;
-                              font-size: 1em;
-                              padding: 0.25em;
-                            }
+input[type="number"],textarea, select   {
+                                            background: #eee;
+                                            border: 1px solid #2C9030;
+                                            color: #2C9030    ;
+                                            font-size: 1em;
+                                            padding: 0.25em;
+                                        }
 
 input[type="number"]:focus,textarea:focus {
                                             background: #2C9030;
@@ -88,10 +87,11 @@ textarea  {
 
 
 #cabecera {
-          text-align: center;
-          color: #2C9030;
-          padding:1em 0 1em;
-          border-bottom: 1px solid #2C9030;
-          background: #eee;
-          margin-bottom: 1em;
+            text-align: center;
+            color: #2C9030;
+            padding:1em 0 1em;
+            border-bottom: 2px solid #2C9030;
+            border-top: 2px #2C9030 solid;
+            background: #eee;
+            margin-bottom: 1em;
           }

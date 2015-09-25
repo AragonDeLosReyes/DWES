@@ -15,7 +15,7 @@
         <form action="Ejercicio06.php" method="get">
             <fieldset>
                 <legend>Formulario</legend>         
-                <p>Base <input type="number" name="base"  placeholder="cm"></p><br>
+                <p>Base <input autofocus type="number" name="base"  placeholder="cm"></p><br>
                 <p>Altura <input type="number" name="altura" placeholder="cm"></p><br>
                 <input type="submit" value="Enviar">
             </fieldset>
