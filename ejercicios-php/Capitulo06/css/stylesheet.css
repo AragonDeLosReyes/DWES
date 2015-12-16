@@ -26,11 +26,6 @@ body  {
             -moz-box-shadow: 10px 10px 20px #1E2321;
                 
         }
-p  {
-          color: #2C9030;
-          font-size: 1em;
-          font-weight: bold;
-        }
 
 fieldset  {
             border: 2px dashed #2C9030;
@@ -46,12 +41,6 @@ form  {
         text-align:  center;
       }
 
-
-legend, p   {
-                color: #2C9030;
-                font-size: 2em;
-                font-weight: bold;
-            }
             
             #numeros {
                 max-width: 3em;
@@ -109,6 +98,16 @@ textarea  {
 
 }
 
+td.lineaInferior  {
+         
+             border-bottom: 2px solid #2C9030;
+    border-collapse: collapse;
+    padding: 0.5em;
+    margin: 0 auto;
+    background-color: #eee;
+
+     }
+
 table, td, th {
         border: 2px solid #2C9030;
         border-collapse: collapse;
@@ -142,3 +141,105 @@ table, td, th {
         color: red;
 
      }
+     
+.verde {
+        color: green;
+     }
+     
+.azul {
+    color: blue;
+}
+     
+.verdeCelda {
+        background-color: green;
+        
+     }
+     
+.rojoCelda {
+        background-color: red;
+        
+     }
+     
+.azulCelda {
+        background-color: blue;
+        
+     }
+
+     .cuadro {
+        float: left;
+        min-width: 2em;
+        max-width: 16.5em;
+        min-height: 28em;
+        max-height: 55em;
+        margin: 0.5em;
+        background-color: #eee;
+        border: 1px solid #2C9030;
+         
+     }
+     
+     .imgCent {
+        margin: 10%;
+        width: 80%;
+
+     }
+     
+     .cesta{
+         
+        border: 1px solid #2C9030;
+        padding: 0.1em;
+        left: 1em;
+         
+         
+     }
+     
+     .precio{
+         display: inline;
+     }
+     .combo {
+         margin:0% 10% 5%;
+     }
+     
+     .sinBordes {
+        border: 0px solid #2C9030;
+        border-collapse: collapse;
+        padding: 0.5em;
+        margin: 0 auto;
+        background-color: #eee;
+    
+}
+
+.articulos  {
+                width: 60%;
+}
+
+
+.CarritoLateral{
+                    max-width: 20%;
+                    right: 7em;
+                    margin-top: 1em;
+                    position: absolute;
+                    padding: 1em;
+                    background-color: #eee;
+                    border: 1px solid #2C9030;
+                }
+
+.cantidad   {
+                background: #eee;
+                border: 1px solid #2C9030;
+                color: #2C9030    ;
+                font-size: 1em;
+                padding: 0.25em;
+                max-width: 1.5em;
+            }
+
+.cantidad:focus {
+                background: #2C9030;
+                color: #fff;
+              }
+              
+.titCarrito {
+    font-size: 2em;
+    color: white;
+
+}
+

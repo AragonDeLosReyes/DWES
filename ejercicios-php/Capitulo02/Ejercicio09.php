@@ -24,7 +24,7 @@
                     <?php 
                         $altura =  $_GET['altura']; 
                         $radio = $_GET['radio'];   
-                        $resultado = (1.0471975512 * ($radio * $radio) * $altura);
+                        $resultado = (1/3 * M_PI * pow($radio, 2) * $altura);
                         if ($resultado <> 0)    {
                             echo "<p>El volumen del cono es: " , number_format($resultado, 2) , "cm<sup>3</sup></p>";
                         }

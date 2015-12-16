@@ -109,6 +109,16 @@ textarea  {
 
 }
 
+td.lineaInferior  {
+         
+             border-bottom: 2px solid #2C9030;
+    border-collapse: collapse;
+    padding: 0.5em;
+    margin: 0 auto;
+    background-color: #eee;
+
+     }
+
 table, td, th {
         border: 2px solid #2C9030;
         border-collapse: collapse;
@@ -142,3 +152,27 @@ table, td, th {
         color: red;
 
      }
+     
+.verde {
+        color: green;
+     }
+     
+.azul {
+    color: blue;
+}
+     
+.verdeCelda {
+        background-color: green;
+        
+     }
+     
+.rojoCelda {
+        background-color: red;
+        
+     }
+     
+.azulCelda {
+        background-color: blue;
+        
+     }
+     

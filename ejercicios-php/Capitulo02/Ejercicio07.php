@@ -17,11 +17,11 @@
                     <legend>Formulario</legend>         
                     <p>Base imponible <input autofocus type="number" name="base"  placeholder="Euros"></p><br>
                     <p>Porcentaje de IVA 
-                        <select name="iva">
-                            <option value="4">4%</option>
-                            <option value="10">10%</option>
-                            <option selected="selected" value="21">21%</option>
-                          </select>
+                      <select name="iva">
+                        <option value="4">4%</option>
+                        <option value="10">10%</option>
+                        <option selected="selected" value="21">21%</option>
+                      </select>
                     </p>
                     <br>
                     <input type="submit" value="Enviar">

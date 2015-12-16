@@ -1,0 +1,285 @@
+/* 
+    Created on : 23-sep-2015, 10:40:29
+    Author     : xarly
+*/
+
+* {
+    margin: 0;
+    padding:0;
+  }
+
+body  {
+        font-size:1em;
+        font-family: "tahoma", "verdana", "sans-serif";
+        background: #1B654D;
+        color:black;
+      }
+
+
+#cuerpo {
+            width: 90%;
+            margin: 2em auto 3em;
+            background: #fff;
+            overflow: auto;
+            padding: 1%;
+            -webkit-box-shadow: 10px 10px 20px #1E2321;
+            -moz-box-shadow: 10px 10px 20px #1E2321;
+                
+        }
+p  {
+          color: #2C9030;
+          font-size: 1em;
+          font-weight: bold;
+        }
+
+fieldset  {
+            border: 2px dashed #2C9030;
+            padding: 1em;
+            border-radius:0.5em;
+            margin-bottom: 2em;
+          }
+          
+
+form  {
+        margin: 0 auto;
+        width: 80%;
+        text-align:  center;
+      }
+
+
+legend, p   {
+                color: #2C9030;
+                font-size: 1em;
+                font-weight: bold;
+            }
+            
+            #numeros {
+                max-width: 3em;
+                min-width: 3em;
+                float: left;
+            }
+        
+
+textarea  {
+            resize: none;
+          }
+
+          
+
+
+#cabecera {
+            text-align: center;
+            color: #2C9030;
+            padding:1em 0 1em;
+            border-bottom: 2px solid #2C9030;
+            border-top: 2px #2C9030 solid;
+            background: #eee;
+            margin-bottom: 1em;
+          }
+#pregunta   {
+    color:blue;
+
+}
+
+td.lineaInferior  {
+         
+             border-bottom: 2px solid #2C9030;
+    border-collapse: collapse;
+    padding: 0.5em;
+    margin: 0 auto;
+    background-color: #eee;
+
+     }
+
+table {
+            border: 2px solid #2C9030;
+    border-collapse: collapse;
+    /* padding: 0.5em; */
+    /* margin: 0 auto; */
+    background-color: #eee;
+    
+}
+
+#rojo {
+    
+        color: red;
+
+     }
+     
+.sinCentrar {
+    text-align: left;
+
+}
+
+.centrado{
+        margin: 0 auto;
+        padding: 1em 0 1em;
+        text-align:  center;
+      
+    
+}
+
+.rojo {
+    
+        color: red;
+
+     }
+     
+.verde {
+        color: green;
+     }
+     
+.azul {
+    color: blue;
+}
+     
+.verdeCelda {
+        background-color: green;
+        
+     }
+     
+.rojoCelda {
+        background-color: red;
+        
+     }
+     
+.azulCelda {
+        background-color: blue;
+        
+     }
+
+     .cuadro {
+            float: left;
+            min-width: 3em;
+            max-width: 15em;
+            min-height: 28em;
+            max-height: 55em;
+            margin: 1em;
+            background-color: #eee;
+            border: 1px solid #2C9030;
+         
+     }
+     
+     .imgCent {
+        margin: 10%;
+        width: 80%;
+
+     }
+     
+     .cesta{
+         
+        border: 1px solid #2C9030;
+        padding: 0.1em;
+        left: 1em;
+         
+         
+     }
+     
+     .precio{
+         display: inline;
+     }
+     .combo {
+         margin:0% 10% 5%;
+     }
+     
+     .sinBordes {
+        border: 0px solid #2C9030;
+        border-collapse: collapse;
+        padding: 0.5em;
+        margin: 0 auto;
+        background-color: #eee;
+    
+}
+
+.articulos  {
+                width: 73%;
+}
+
+
+.CarritoLateral{
+            width: 20%;
+    right: 8%;
+    position: absolute;
+}
+
+.cantidad   {
+                background: #eee;
+                border: 1px solid #2C9030;
+                color: #2C9030    ;
+                font-size: 1em;
+                padding: 0.25em;
+                max-width: 1.5em;
+            }
+
+.cantidad:focus {
+                background: #2C9030;
+                color: #fff;
+              }
+              
+.carritoP {
+        max-width: 13em;
+        padding: 1em 0 1em;
+        text-align:  center;
+        font-size: 1em;
+        white-space:nowrap; 
+        overflow:hidden;
+        text-overflow: ellipsis;
+    
+}
+
+.titCarrito {
+    font-size: 2em;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.2em;
+    border: 1px solid white;
+
+}
+
+.precioCarrito {
+    font-size: 1em;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.2em;
+    border: 1px solid white;
+
+}
+
+     .imgCarrito {
+        margin: 5%;
+        max-width: 60%;
+        min-width: 40%;
+
+     }
+     
+     
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number]::-moz-inner-spin-button, 
+input[type=number]::-moz-outer-spin-button { 
+  -moz-appearance: none; 
+  margin: 0; 
+}
+
+.cuadroGrande    {
+            float: left;
+            min-width: 30em;
+            max-width: 66em;
+            min-height: 28em;
+            max-height: 55em;
+            margin: 1em;
+            background-color: #eee;
+            border: 1px solid #2C9030;
+    
+}
+
+.tic {
+         margin: 1em 2em 1em;
+        list-style-image: url("../images/tic.png");
+}

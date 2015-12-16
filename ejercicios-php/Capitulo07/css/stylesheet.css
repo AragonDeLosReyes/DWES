@@ -1,0 +1,349 @@
+/* 
+    Created on : 23-sep-2015, 10:40:29
+    Author     : xarly
+*/
+
+* {
+    margin: 0;
+    padding:0;
+  }
+
+body  {
+        font-size:1em;
+        font-family: "tahoma", "verdana", "sans-serif";
+        background: #1B654D;
+        color:black;
+      }
+
+
+#cuerpo {
+            width: 90%;
+            margin: 2em auto 3em;
+            background: #fff;
+            overflow: auto;
+            padding: 1%;
+            -webkit-box-shadow: 10px 10px 20px #1E2321;
+            -moz-box-shadow: 10px 10px 20px #1E2321;
+                
+        }
+
+fieldset  {
+            border: 2px dashed #2C9030;
+            padding: 1em;
+            border-radius:0.5em;
+            margin-bottom: 2em;
+          }
+          
+
+
+
+            
+            #numeros {
+                max-width: 3em;
+                min-width: 3em;
+                float: left;
+            }
+        
+input[type="submit"]  {
+                        background: #2C9030;
+                        border: 1px solid transparent;
+                        color: white;
+                        font-size: 1.5em;
+                        padding: 0.5em;
+                      }
+
+input[type="submit"]:hover {
+                              background: #eee;
+                              border: 1px solid #2C9030;
+                              color: #2C9030;
+                            }
+        
+
+input[type="text"]   {
+                                                                background: #eee;
+                                                                border: 1px solid #2C9030;
+                                                                color: #2C9030    ;
+                                                                font-size: 1em;
+                                                                padding: 0.25em;
+                                                                    width: 95%;
+                                                            }
+
+input[type="text"]:focus {
+                                                                        background: #2C9030;
+                                                                        color: #fff;
+                                                                      }
+input[type="number"]   {
+                            background: #eee;
+                            border: 1px solid #2C9030;
+                            color: #2C9030    ;
+                            font-size: 1em;
+                            padding: 0.25em;
+                            width: 95%;
+                        }
+
+input[type="number"]:focus {
+                            background: #2C9030;
+                            color: #fff;
+                          }
+                          
+input[type="password"]   {
+                            background: #eee;
+                            border: 1px solid #2C9030;
+                            color: #2C9030    ;
+                            font-size: 1em;
+                            padding: 0.25em;
+                            width: 95%;
+                        }
+
+input[type="password"]:focus {
+                            background: #2C9030;
+                            color: #fff;
+                          }
+
+textarea  {
+            resize: none;
+          }
+
+          
+
+
+#cabecera {
+            text-align: left;
+            color: #2C9030;
+            padding:1em 0 1em;
+            border-bottom: 2px solid #2C9030;
+            border-top: 2px #2C9030 solid;
+            background: #eee;
+            margin-bottom: 1em;
+          }
+#pregunta   {
+    color:blue;
+
+}
+
+td.lineaInferior  {
+         
+             border-bottom: 2px solid #2C9030;
+    border-collapse: collapse;
+    padding: 0.5em;
+    margin: 0 auto;
+    background-color: #eee;
+
+     }
+
+table, td, th {
+        border: 2px solid #2C9030;
+        border-collapse: collapse;
+        padding: 0.5em;
+        margin: 0 auto;
+        background-color: #eee;
+    
+}
+
+#rojo {
+    
+        color: red;
+
+     }
+     
+.sinCentrar {
+    text-align: left;
+
+}
+
+.centrado{
+        margin: 0 auto;
+        padding: 1em 0 1em;
+        text-align:  center;
+      
+    
+}
+
+.rojo {
+    
+        color: red;
+
+     }
+     
+.verde {
+        color: green;
+     }
+     
+.azul {
+    color: blue;
+}
+     
+.verdeCelda {
+        background-color: green;
+        
+     }
+     
+.rojoCelda {
+        background-color: red;
+        
+     }
+     
+.azulCelda {
+        background-color: blue;
+        
+     }
+
+     .cuadro {
+        float: left;
+        min-width: 2em;
+        max-width: 16.5em;
+        min-height: 28em;
+        max-height: 55em;
+        margin: 0.5em;
+        background-color: #eee;
+        border: 1px solid #2C9030;
+         
+     }
+     
+     .imgCent {
+        margin: 10%;
+        width: 80%;
+
+     }
+     
+     .cesta{
+         
+        border: 1px solid #2C9030;
+        padding: 0.1em;
+        left: 1em;
+         
+         
+     }
+     
+     .precio{
+         display: inline;
+     }
+     .combo {
+         margin:0% 10% 5%;
+     }
+     
+     .sinBordes {
+        border: 0px solid #2C9030;
+        border-collapse: collapse;
+        padding: 0.5em;
+        margin: 0 auto;
+        background-color: #eee;
+    
+}
+
+.articulos  {
+                width: 60%;
+}
+
+
+.CarritoLateral{
+                    max-width: 20%;
+                    right: 7em;
+                    margin-top: 1em;
+                    position: absolute;
+                    padding: 1em;
+                    background-color: #eee;
+                    border: 1px solid #2C9030;
+                }
+
+.cantidad   {
+                background: #eee;
+                border: 1px solid #2C9030;
+                color: #2C9030    ;
+                font-size: 1em;
+                padding: 0.25em;
+                max-width: 1.5em;
+            }
+
+.cantidad:focus {
+                background: #2C9030;
+                color: #fff;
+              }
+              
+.titCarrito {
+    font-size: 2em;
+    color: white;
+
+}
+
+.fallo {
+    margin: 1em;
+    /* background-color: red; */
+    padding: 1em;
+    border: 3px solid black;
+    opacity: 0.8;
+    color: red;
+    font-size: 2em;
+}
+
+#menu   {
+    background-color: #eee;
+    border: 1px solid #2c9030;
+    color: #2C9030;
+    border-bottom: 2px solid #2C9030;
+    border-top: 2px #2C9030 solid;
+    margin-bottom: 1em;
+    overflow: overlay;
+}
+
+.menu {
+    float: left;
+    border-left: 1px solid #2C9030;
+    border-right: 1px solid #2C9030;
+    border-collapse: collapse;
+    padding: 1em;
+    margin: 0 auto;
+    background-color: #eee;
+    font-size: 20px;
+    font-weight: bold;
+}
+.login {
+    color: #2C9030;
+    padding: 1em 1em 1em;
+    border-top: 2px #2C9030 solid;
+    background: #eee;
+    float: right;
+}
+
+.panelLogin     {
+    width: 20%;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cabeceraGesti {
+    text-align: center;
+            color: #2C9030;
+            padding:1em 0 1em;
+            border-bottom: 2px solid #2C9030;
+            border-top: 2px #2C9030 solid;
+            background: #eee;
+            margin-bottom: 1em;
+}
+
+//links
+
+/* unvisited link */
+a:link {
+    color: red;
+     text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: none;
+}
